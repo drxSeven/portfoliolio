@@ -16,6 +16,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.logo {
+  font-size: larger;
+}
+
 h1 {
   text-align: center;
 }
@@ -23,6 +27,7 @@ h1 {
 .navbar {
   height: 20vh;
   position: fixed;
+  top: 10px;
 }
 
 .rectangle {
@@ -264,4 +269,13 @@ hr.divider {
 .proj-rect > h3 {
   margin: 0;
   padding: 0;
+}
+
+.contact {
+  height: 100vh;
+}
+
+.contact-side {
+  background: #2c373f;
+  width: 50vw;
 }
