@@ -222,6 +222,7 @@ h1 {
   height: 150px;
   margin-left: -390px;
   margin-top: 90px;
+  padding: 10px 5px;
 }
 
 .github {
@@ -234,7 +235,7 @@ h1 {
 .rect-back {
   background: var(--desat-red);
   width: 400px;
-  height: 150px;
+  height: 170px;
   margin-left: -80px;
   margin-top: 100px;
 }
@@ -251,6 +252,16 @@ h1 {
   background: var(--desat-green);
 }
 
-/* .tabs-container > p {
-  margin-left: 5px;
-} */
+hr.divider {
+  margin-bottom: 5px;
+  border-width: 1px;
+}
+
+.proj-rect > p {
+  margin: 0;
+  padding: 0;
+}
+.proj-rect > h3 {
+  margin: 0;
+  padding: 0;
+}
