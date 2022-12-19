@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --dark: #121518;
+  --light-blue: #4e869e;
+  /* pastels */
+  --desat-red: #dd8585;
+  --desat-blue: #85c3dd;
+  --desat-purple: #8589dd;
+  --desat-green: #85ddb3;
+}
+
+body {
+  background-color: var(--dark);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  height: 20vh;
+  position: fixed;
+}
+
+.rectangle {
+  border: solid 1px var(--light-blue);
+  height: 33vw;
+  width: 33vw;
+}
+
+.rectangle2 {
+  margin: 12px 12px;
+  border: solid 1px white;
+  height: 33vw;
+  width: 33vw;
+}
+
+.sidebar {
+  font-size: x-large;
+  margin: 20vh 5vh;
+  list-style: none;
+}
+
+.intro {
+  margin: 20vh 5vh;
+}
+
+.landing,
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  height: 100vh;
+}
+
+.about-rect {
+  background: #1e1e1e;
+  width: 45vw;
+  height: 62vh;
+  padding: 20px;
+}
+
+.use {
+  font-size: larger;
+}
+
+.bd {
+  font-size: large;
+}
+
+.rect-pic {
+  margin-left: 55px;
+}
+
+.rectt {
+  border: var(--light-blue) solid 1px;
+  z-index: -1;
+  position: absolute;
+  top: 1270px;
+  left: 65vw;
+  height: 400px;
+  width: 400px;
+}
+
+.rectt2 {
+  border: var(--light-blue) solid 1px;
+  z-index: -1;
+  position: absolute;
+  top: 1320px;
+  left: 17vw;
+  height: 62vh;
+  width: 45vw;
+}
+
+.ball-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  background: var(--light-blue);
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.proj-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1e1e;
+  height: 60px;
+  padding-right: 50px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: var(--desat-red);
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.circle2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: var(--desat-blue);
+  margin: 10px;
+}
+
+.circle3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: var(--desat-purple);
+  margin: 10px;
+}
+
+.circle4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: var(--desat-green);
+  margin: 10px;
+}
+
+.proj-contain {
+  display: flex;
+  justify-content: center;
+}
+
+.proj {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 34px;
+}
+
+.p-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.p-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.p-3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.p-4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.p-5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.p-6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.p-7 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.p-8 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.p-9 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.p-10 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+.p-items {
+  display: flex;
+}
+
+.float {
+  background: #525252;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin: 20px 0px 10px 0px;
+}
+
+.proj-rect {
+  background: #1e1e1e;
+  width: 400px;
+  height: 150px;
+  margin-left: -390px;
+  margin-top: 90px;
+}
+
+.github {
+  height: 25px;
+  width: 25px;
+  background: #3b3b3b;
+  border-radius: 100px;
+}
+
+.rect-back {
+  background: var(--desat-red);
+  width: 400px;
+  height: 150px;
+  margin-left: -80px;
+  margin-top: 100px;
+}
+
+.p-2 > .rect-back {
+  background: var(--desat-blue);
+}
+
+.p-3 > .rect-back {
+  background: var(--desat-purple);
+}
+
+.p-4 > .rect-back {
+  background: var(--desat-green);
+}
+
+/* .tabs-container > p {
+  margin-left: 5px;
+} */
