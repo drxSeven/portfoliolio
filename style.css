@@ -3,6 +3,7 @@
 :root {
   --dark: #121518;
   --light-blue: #4e869e;
+  --off-ehite: #909192;
   /* pastels */
   --desat-red: #dd8585;
   --desat-blue: #85c3dd;
@@ -18,6 +19,10 @@ body {
 
 .logo {
   font-size: larger;
+}
+
+.up {
+  margin-top: 200vh;
 }
 
 h1 {
@@ -47,6 +52,11 @@ h1 {
   font-size: x-large;
   margin: 20vh 5vh;
   list-style: none;
+}
+
+.side-link {
+  color: white;
+  text-decoration: none;
 }
 
 .intro {
@@ -296,8 +306,45 @@ hr.divider {
 }
 
 .contact-rect {
-  display: flex;
   background: #181d20;
   width: 50vw;
   height: 100%;
+}
+
+.contact-rect > h3 {
+  margin-top: 32vh;
+  margin-left: 5vh;
+  /* margin-bottom: -1vh; */
+  font-size: xx-large;
+}
+
+.contact-rect > form {
+  font-size: larger;
+  margin-top: -10px;
+  margin-left: 5vh;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 20vw;
+  height: 5vh;
+}
+
+textarea {
+  width: 40.74vw;
+  height: 150px;
+  resize: none;
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  width: 40.74vw;
+  height: 3vh;
+}
+
+input,
+textarea {
+  color: white;
+  background: #151719;
+  border: none;
 }
