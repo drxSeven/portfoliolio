@@ -21,17 +21,18 @@ body {
   display: flex;
   justify-content: flex-end;
   position: sticky;
-  top: 30px;
+  top: 35px;
   display: none;
   margin-top: -150px;
   height: 15.03vh;
 }
 
 .links {
+  display: flex;
   background: #3b3b3b;
   border-radius: 100px;
   padding: 5px;
-  height: 3.5vh;
+  height: 4vh;
 }
 
 .links > a {
