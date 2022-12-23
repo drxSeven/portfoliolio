@@ -273,9 +273,31 @@ hr.divider {
 
 .contact {
   height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.contact-rect {
+  grid-area: 1 / 2 / 6 / 3;
+}
+.contact-side {
+  grid-area: 3 / 1 / 4 / 2;
 }
 
 .contact-side {
-  background: #2c373f;
+  border: solid 1px var(--light-blue);
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  margin-left: 15vh;
+}
+
+.contact-rect {
+  display: flex;
+  background: #181d20;
   width: 50vw;
+  height: 100%;
 }
