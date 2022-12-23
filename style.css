@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-  --dark: #121518;
+  --dark: #1d2226;
   --light-blue: #4e869e;
   --off-ehite: #909192;
   /* pastels */
@@ -17,12 +17,38 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.collapsed {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 30px;
+  display: none;
+  margin-top: -150px;
+  height: 15.03vh;
+}
+
+.links {
+  background: #3b3b3b;
+  border-radius: 100px;
+  padding: 5px;
+  height: 3.5vh;
+}
+
+.links > a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
 .logo {
   font-size: larger;
 }
 
-.up {
-  margin-top: 200vh;
+.menu-line {
+  background: white;
+  height: 3px;
+  width: 30px;
+  margin-bottom: 5px;
 }
 
 h1 {
@@ -30,8 +56,10 @@ h1 {
 }
 
 .navbar {
-  height: 20vh;
-  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 18vh;
+  position: sticky;
   top: 10px;
 }
 
@@ -338,8 +366,8 @@ textarea {
 
 input[type="submit"] {
   margin-top: 5px;
-  width: 40.74vw;
-  height: 3vh;
+  width: 20vw;
+  height: 5vh;
 }
 
 input,
