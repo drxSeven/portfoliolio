@@ -187,4 +187,61 @@
     margin: 0;
     padding: 0;
   }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-side {
+    display: none;
+  }
+
+  .contact-rect {
+    text-align: center;
+    background: #181d20;
+    width: 80vw;
+    height: 85vw;
+  }
+
+  .contact-rect > form {
+    font-size: larger;
+    margin-top: -10px;
+  }
+
+  input[type="email"],
+  input[type="text"] {
+    width: 35vw;
+    height: 5vh;
+  }
+
+  .m-h3 {
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .sub {
+    display: none;
+  }
+
+  textarea {
+    width: 70vw;
+    height: 150px;
+    resize: none;
+    margin-top: 5px;
+  }
+
+  input[type="submit"] {
+    margin-top: 5px;
+    width: 70vw;
+    height: 5vh;
+  }
+
+  input,
+  textarea {
+    color: white;
+    background: #151719;
+    border: none;
+  }
 }
