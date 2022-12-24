@@ -10,6 +10,12 @@
     font-size: small;
   }
 
+  .m-svg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   .collapsed {
     display: flex;
     justify-content: flex-end;
@@ -22,6 +28,26 @@
 
   .sidebar {
     display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rect-pic {
+    display: none;
+  }
+
+  .about-rect {
+    background: #1e1e1e;
+    width: 80vw;
+    height: 62vh;
+    padding: 20px;
   }
 
   .rectangle {
