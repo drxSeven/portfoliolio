@@ -74,6 +74,10 @@
   }
 
   .tabs-container {
+    display: none;
+  }
+
+  .tabs-container-m {
     display: flex;
     justify-content: center;
   }

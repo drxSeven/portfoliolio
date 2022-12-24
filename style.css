@@ -331,6 +331,15 @@ body {
     grid-area: 3 / 1 / 4 / 2;
   }
 
+  .m-svg {
+    display: none;
+  }
+
+  .m-h3,
+  .tabs-container-m {
+    display: none;
+  }
+
   .contact-side {
     border: solid 1px var(--light-blue);
     height: 500px;
