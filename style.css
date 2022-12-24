@@ -31,10 +31,6 @@ body {
   text-decoration: none;
 }
 
-.logo {
-  font-size: larger;
-}
-
 .menu-line {
   background: white;
   height: 3px;
@@ -43,6 +39,10 @@ body {
 }
 
 @media screen and (min-width: 480px) {
+  .logo {
+    font-size: larger;
+  }
+
   .navbar {
     display: flex;
     justify-content: space-between;

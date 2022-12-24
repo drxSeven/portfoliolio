@@ -6,6 +6,9 @@
     position: sticky;
     top: 10px;
   }
+  .logo {
+    font-size: large;
+  }
 
   .collapsed {
     display: flex;
