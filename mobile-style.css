@@ -72,4 +72,119 @@
   .bd {
     margin-top: -10px;
   }
+
+  .tabs-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .proj-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+    height: 60px;
+    padding-right: 50px;
+    border-radius: 15px;
+    margin: 5px;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+    background: var(--desat-red);
+    margin: 10px;
+    border-radius: 100px;
+  }
+
+  .circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: var(--desat-blue);
+    margin: 10px;
+  }
+
+  .circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: var(--desat-purple);
+    margin: 10px;
+  }
+
+  .circle4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: var(--desat-green);
+    margin: 10px;
+  }
+
+  .proj-contain {
+    display: flex;
+    justify-content: center;
+  }
+
+  .p-items {
+    display: flex;
+  }
+
+  .float {
+    background: #525252;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .proj-rect {
+    background: #1e1e1e;
+    width: 75vw;
+    height: 150px;
+    margin-left: -300px;
+    margin-top: 90px;
+    padding: 10px 5px;
+  }
+
+  .github {
+    height: 25px;
+    width: 25px;
+    background: #3b3b3b;
+    border-radius: 100px;
+  }
+
+  .rect-back {
+    background: var(--desat-red);
+    width: 60vw;
+    height: 170px;
+    margin-left: -150px;
+    margin-top: 100px;
+  }
+
+  .p-2 > .rect-back {
+    background: var(--desat-blue);
+  }
+
+  .p-3 > .rect-back {
+    background: var(--desat-purple);
+  }
+
+  .p-4 > .rect-back {
+    background: var(--desat-green);
+  }
+
+  hr.divider {
+    margin-bottom: 5px;
+    border-width: 1px;
+  }
+
+  .proj-rect > p {
+    margin: 0;
+    padding: 0;
+  }
+  .proj-rect > h3 {
+    margin: 0;
+    padding: 0;
+  }
 }
