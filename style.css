@@ -17,16 +17,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.collapsed {
-  display: flex;
-  justify-content: flex-end;
-  position: sticky;
-  top: 35px;
-  display: none;
-  margin-top: -150px;
-  height: 15.03vh;
-}
-
 .links {
   display: flex;
   background: #3b3b3b;
@@ -52,15 +42,29 @@ body {
   margin-bottom: 5px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  height: 18vh;
-  position: sticky;
-  top: 10px;
-}
-
 @media screen and (min-width: 480px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+    position: sticky;
+    top: 10px;
+  }
+
+  .collapsed {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 35px;
+    display: none;
+    margin-top: -150px;
+    height: 15.03vh;
+  }
+
+  .mob-intro {
+    display: none;
+  }
+
   h1 {
     text-align: center;
   }

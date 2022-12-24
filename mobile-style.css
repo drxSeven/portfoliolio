@@ -1,2 +1,46 @@
 @media screen and (max-width: 480px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    position: sticky;
+    top: 10px;
+  }
+
+  .collapsed {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 35px;
+    display: none;
+    margin-top: -150px;
+    height: 19.5vh;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .rectancgle-m {
+    margin: auto;
+    border: solid 1px white;
+    height: 75vw;
+    width: 80vw;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .mob-intro {
+    text-align: center;
+  }
+
+  .bd {
+    font-size: larger;
+  }
 }
